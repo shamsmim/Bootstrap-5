@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color and spacing margin padding</title>
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <style>
+        #feedback{
+            background: #0d0442;
+            padding: 7% 10%;
+        }
+        /* .hr-style{
+            border: 5px dotted white;
+            border-bottom: none;
+            width: 50px;
+        } */
+        
+
+
+        .carousel-item{
+            padding: 5% 15%;
+            text-align: center;
+            font-style: italic;
+        }
+
+
+    </style>
+
+
+
+</head>
+<html>
+<body>    
+    
+    <div class="container text-white">
+        <section id="feedback">
+            <div class="section-title">
+                <h3 class="text-center">Feedback</h3>
+                <hr class="hr-style">
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam ab autem ratione neque magni.
+                            <img class="img-fd rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDHbpL5Y23TUTDEJeFZ5tRl3YfKFZ4IjBKxf7CAn3XwSoQHHpJeJ6NZcltWqbr5x2vxgw&usqp=CAU" alt="">
+
+                            <h6>Ash Shams Mim</h6>
+
+
+                          </div>
+                          <div class="carousel-item">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam explicabo amet nobis adipisci, modi exercitationem!
+                            <img class="img-fd rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi6aVU2dioxqZcRIZuDqJBSUZMdZFx14oSAekJE2UXd8aUprkZjzcRTSHkODC-9tNQusc&usqp=CAU" alt="">
+
+                            <h6>Ash Shams Mim</h6>
+
+
+                          </div>
+                          <div class="carousel-item">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cum voluptatibus tempora voluptate, autem fugit.
+                            <img class="img-fd rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87y6tklqpOG2LQPMfBMcCrOMnQ0l7NVSb3RvskAJvW2MI4kn-PoEJouHDYvigMC8pcrs&usqp=CAU" alt="">
+
+                            <h6>Ash Shams Mim</h6>
+                            
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </div>        
+
+
+    
+    <!-- bootstrap js, jquary, popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
